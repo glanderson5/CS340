@@ -1,2 +1,8 @@
-# CS340
-Coursework for CS340
+1. Writing Maintainable, Readable, and Adaptable Code
+To write code that's easy to maintain and adapt, I rely on clear function names, consistent formatting, helpful comments, and modular design. In Project One, creating the CRUD Python module with reusable methods like create, read, update, and delete. This helped separate database logic from the rest of the dashboard code. That separation made it much easier to plug the module into the dashboard in Project Two. One big advantage was that I didn’t have to rewrite any connection logic. I just instantiated the AnimalShelter class and called the methods I needed. In the future, this module could easily be adapted for use in other projects involving MongoDB, especially ones with different collections but similar read/write needs.
+
+2. Problem Solving as a Computer Scientist
+My approach usually starts with breaking the problem into smaller pieces, reading the documentation for any unfamiliar tools, and making sure I understand the requirements before writing any code. For this project, I tackled the database design and the dashboard layout as two distinct challenges, each with their own tools. MongoDB for the backend, Dash for the frontend. Compared to earlier assignments, this one felt more like a real-world software project because it had multiple moving parts and required me to think about how different components would interact. In future projects, I’ll continue to rely on modular code and reusable patterns like the MVC design used here to keep things scalable and flexible.
+
+3. The Role of Computer Scientists and the Impact of This Work
+Computer scientists build the systems that help organizations manage data, automate processes, and make better decisions. In this case, the dashboard I built helps Grazioso Salvare visualize and filter shelter data more efficiently and allowing them to find the best dogs for different types of rescue missions. Projects like this one matter because they turn raw data into actionable insight, and that can directly support an organization’s mission.
